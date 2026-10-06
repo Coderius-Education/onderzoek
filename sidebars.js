@@ -36,6 +36,7 @@ const sidebars = {
         'spelregels/valide',
         'spelregels/transparant',
         'spelregels/aanvaardbaar',
+        'spelregels/auteursrecht',
         'spelregels/interne-validiteit',
         'spelregels/externe-validiteit',
         'spelregels/intern-vs-extern',
