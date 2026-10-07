@@ -1,5 +1,12 @@
 # Onderzoek
 
+> **Verhuisd.** Deze site staat nu op **https://wo.coderius.nl/onderzoek/** en wordt
+> bijgehouden in [Coderius-Education/docs](https://github.com/Coderius-Education/docs)
+> (map `sites/wo/onderzoek`). Wijzig het lesmateriaal daar, niet hier.
+>
+> De GitHub Pages-site van deze repo stuurt elke pagina door naar hetzelfde pad op
+> de nieuwe site (zie `scripts/maak-omleidingen.mjs`).
+
 Materiaal voor het doen van onderzoek, gericht op bovenbouw havo/vwo. Gebouwd met [Docusaurus](https://docusaurus.io/) en gehost op GitHub Pages:
 
 **https://coderius-education.github.io/onderzoek/**

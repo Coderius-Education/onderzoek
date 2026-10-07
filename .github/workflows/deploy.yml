@@ -27,12 +27,16 @@ jobs:
         run: npm ci
       - name: Site bouwen
         run: npm run build
+      # De site staat nu op https://wo.coderius.nl/onderzoek/. Elke pagina van
+      # de oude build wordt een omleiding naar hetzelfde pad daar.
+      - name: Omleidingen maken
+        run: node scripts/maak-omleidingen.mjs build omleiding
       - name: Pages configureren
         uses: actions/configure-pages@v6
       - name: Build uploaden
         uses: actions/upload-pages-artifact@v5
         with:
-          path: build
+          path: omleiding
 
   deploy:
     needs: build
